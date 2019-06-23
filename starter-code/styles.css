@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 10;
+    padding: 0;
+    margin: 0;
+}
+
+/*----Nav------*/
+
+body {
+  margin: 0;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 35px;  
+    font-size: 1.2em;
+}
+  
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+  
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  display: inline-block;
+}
+
+  /* ----Header ------*/
+
+header {
+  background: url("images/city-scape.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: white;
+  background-color: rgb(32, 101, 136);
+}
+
+.search-nav{
+  width: 100%;
+  display: block;
+}
+
+.npm-logo {
+  width: 7%;
+  height: 2%;
+  display: block;
+  margin-top: 20px;
+  margin-left: 25px;
+  float: left;
+}
+
+.search-form {
+  display: block;
+  width: 80%;
+  float: left;
+}
+
+.search input{
+  font-size: 1.2em;
+}
+
+.search-term {
+  background-color:rgb(19, 84, 117);
+  width: 90%;
+  border: 1px solid rgba(133, 164, 180, 0.5);
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  outline: none;
+  color:rgb(32, 101, 136);
+  margin: 15px 0 0 20px;
+  float: left;
+  display: block;
+}
+    
+.search-button {
+  width: 3%;
+  height:53px;
+  border: 1px solid rgba(133, 164, 180, 0.5);
+  background: rgb(19, 84, 117);
+  color: rgb(32, 101, 136);
+  cursor: pointer;
+  display: block;
+  margin-top: 15px;
+  margin-right: 0;
+  float: left;
+}
+
+.bear-logo {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: right;
+  margin: 15px 10px 0 10px;
+}
+
+.login {
+  display: inline-block;
+  font-size: 1em;
+  padding-top: 15px;
+  height: 40px;
+}
+
+
+/*----Buil Amazing Things-----*/
+
+.header-title {
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+
+.header-text {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.4em;
+  position: flex;
+  align-content: center;
+  padding-top: 50px;
+}
+
+.header-p {
+  padding-bottom: 30px;
+}
+
+.signup-npm-button {
+  background: rgb(240, 146, 51);
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 0.8em;
+}
+
+/*-------Section 1-------*/
+
+#section-1 {
+  color: white;
+  background: rgb(39, 53, 71);
+  height: 550px; 
+}
+ 
+.section1-text {
+  width: 40%;
+  float: right;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 1.3em;
+  line-height: 45px;   
+}
+
+.img-collaboration {
+  width: 30%;
+  margin: 0 auto;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+
+#section-1 ul {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.signup-orgs-button {
+  background: rgb(203, 56, 55);
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 0.8em;
+}
+
+.learn-more {
+  font-size: 0.8em;
+}
+
+.section1-text span {
+  display: block;
+}
+
+
+/*-------Section 2-------*/
+
+#section-2 {
+  color: white;
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px; 
+}
+
+.section2-text {
+  position: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  font-size: 1.3em;
+
+}
+
+#section-2 h2 {
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+.section2-text p{
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+.section2-text span {
+  display: block;
+}
+
+.install-npm-button {
+  background: rgb(49, 68, 88);
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 0.8em;
+}
+
+
+/*-------Section 3-------*/
+
+#section-3 {
+  height: 500px; 
+  background: white;
+  text-align: center;
+}
+
+.section3-heading {
+  color: rgb(83, 88, 98);
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.section3-main-p {
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+#section-3 h2 {
+  padding-bottom: 30px;
+}
+
+#section-3 p {
+  color: rgb(135, 145, 156);
+  font-size: 1em;
+}
+
+#section-3 span {
+  display: block;
+}
+
+.section3-link {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.container-section3 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/*Reusable styles*/
+ 
+.col {
+  float: left;
+} 
+
+.col-3 {
+  width: 33%;
+} 
+
+a, a:hover, a:active, a:visited { 
+  color: white; 
+}
+
+button, button:hover, button:active, button:visited { 
+  color: white; 
+}
+
+.link-style {
+  list-style-type: none;
+  text-decoration: none;
+} 
+
+.heading-style {
+  font-size: 1.9em;
+}
+
+.main-style {
+  width: 100%;
+  max-width: 1800px;
+  position: relative;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.box-style {
+  box-sizing: border-box;
+}
+
+.container-section1-2 {
+  width: 1200px;
+  margin: 0 auto;
+}
